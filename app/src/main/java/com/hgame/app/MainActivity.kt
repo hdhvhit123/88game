@@ -53,8 +53,10 @@ class MainActivity : Activity() {
         }
         val titles = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
         titles.addView(TextView(this).apply {
-            text = "H Games"
-            textSize = 30f
+            text = "HGames: 88 Offline Games"
+            textSize = 24f
+            maxLines = 1
+            ellipsize = android.text.TextUtils.TruncateAt.END
             setTypeface(typeface, Typeface.BOLD)
             setTextColor(Pal.TEXT)
         })

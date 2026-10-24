@@ -1,4 +1,6 @@
-# H Games – 88 trò chơi native cho Android
+# HGames: 88 Offline Games
+
+88 trò chơi native cho Android, chơi offline hoàn toàn.
 
 Ứng dụng Android viết hoàn toàn bằng **Kotlin**, mỗi trò chơi tự vẽ trên `Canvas` và chạy bằng vòng lặp khung hình `Choreographer`.
 Ứng dụng **không dùng WebView** và không cần mạng, cũng không có quảng cáo hay quyền truy cập đặc biệt (chỉ dùng quyền rung).
